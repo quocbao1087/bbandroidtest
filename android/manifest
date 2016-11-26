@@ -3,8 +3,8 @@
 # during compilation, packaging, distribution, etc.
 #
 version: 1.0
-apiversion: 2
-architectures: armeabi armeabi-v7a x86
+apiversion: 3
+architectures: armeabi-v7a x86
 description: Free
 author: quocbao
 license: Free
@@ -15,4 +15,4 @@ name: bbandroidtest
 moduleid: bb.test
 guid: 7937d026-acf8-4ab8-96dd-59140ce91947
 platform: android
-minsdk: 5.3.1.GA
+minsdk: 6.0.0.GA
