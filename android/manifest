@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0
+apiversion: 2
+architectures: armeabi armeabi-v7a x86
+description: Free
+author: quocbao
+license: Free
+copyright: 2016
+
+# these should not be edited
+name: bbandroidtest
+moduleid: bb.test
+guid: 7937d026-acf8-4ab8-96dd-59140ce91947
+platform: android
+minsdk: 5.3.1.GA

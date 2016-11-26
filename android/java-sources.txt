@@ -1,0 +1,4 @@
+"/Users/quocbao/Documents/Appcelerator_Studio_Workspace/bbandroidtest/android/build/generated/java/bb/test/BbandroidtestBootstrap.java"
+"/Users/quocbao/Documents/Appcelerator_Studio_Workspace/bbandroidtest/android/src/bb/test/BbandroidtestModule.java"
+"/Users/quocbao/Documents/Appcelerator_Studio_Workspace/bbandroidtest/android/src/bb/test/EgzProxy.java"
+"/Users/quocbao/Documents/Appcelerator_Studio_Workspace/bbandroidtest/android/src/bb/test/ExampleProxy.java"

@@ -1,0 +1,20 @@
+%define lookup-function-name lookupGeneratedInit
+%define class-name BbandroidtestBindings
+%{
+
+#include <string.h>
+#include <v8.h>
+#include <KrollBindings.h>
+
+#include "bb.test.EgzProxy.h"
+#include "bb.test.ExampleProxy.h"
+#include "bb.test.BbandroidtestModule.h"
+
+
+%}
+struct titanium::bindings::BindEntry;
+%%
+bb.test.BbandroidtestModule,::bb::test::BbandroidtestModule::bindProxy,::bb::test::BbandroidtestModule::dispose
+bb.test.ExampleProxy,::bb::test::bbandroidtest::ExampleProxy::bindProxy,::bb::test::bbandroidtest::ExampleProxy::dispose
+bb.test.EgzProxy,::bb::test::bbandroidtest::EgzProxy::bindProxy,::bb::test::bbandroidtest::EgzProxy::dispose
+%%
